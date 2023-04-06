@@ -1,5 +1,0 @@
-# Created at 2023-04-04T18:53:07.848
-Boot Manifest-JAR contains absolute paths in classpath 'F:\API_RestAssured_Testing\RestAssured_Eclipse_Workspace\RestAssured_Framework_PetStore\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

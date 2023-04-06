@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="58.246" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="88.038" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Amol\AppData\Local\Temp\surefire4071604844465176417\surefirebooter-20230406160913811_3.jar C:\Users\Amol\AppData\Local\Temp\surefire4071604844465176417 2023-04-06T16-09-11_829-jvmRun1 surefire-20230406160913811_1tmp surefire_0-20230406160913811_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Amol\AppData\Local\Temp\surefire9003377499701707814\surefirebooter-20230406165400764_3.jar C:\Users\Amol\AppData\Local\Temp\surefire9003377499701707814 2023-04-06T16-53-58_480-jvmRun1 surefire-20230406165400764_1tmp surefire_0-20230406165400764_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\API_RestAssured_Testing\RestAssured_Eclipse_Workspace\RestAssured_Framework_PetStore\target\test-classes;F:\API_RestAssured_Testing\RestAssured_Eclipse_Workspace\RestAssured_Framework_PetStore\target\classes;C:\Users\Amol\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Amol\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Amol\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Amol\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Amol\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Amol\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Amol\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Amol\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Amol\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Amol\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Amol\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Amol\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Amol\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Amol\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Amol\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Amol\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Amol\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Amol\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Amol\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Amol\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Amol\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Amol\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Amol\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Amol\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Amol\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Amol\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Amol\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Amol\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Amol\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Amol\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Amol\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\Amol\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Amol\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Amol\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Amol\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Amol\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Amol\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Amol\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Amol\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Amol\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Amol\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Amol\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Amol\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Amol\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Amol\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Amol\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Amol\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\Amol\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\Amol\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\Amol\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\Amol\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\Amol\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\Amol\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\Amol\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\Amol\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\Amol\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\Amol\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\Amol\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\Amol\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Amol\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\Amol\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Amol\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Amol\AppData\Local\Temp\surefire4071604844465176417\surefirebooter-20230406160913811_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Amol\AppData\Local\Temp\surefire9003377499701707814\surefirebooter-20230406165400764_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -49,25 +49,25 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\allure-2.14.0\bin;C:\Program Files\nodejs\;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk-11.0.10\bin;C:\Program Files\apache-maven-3.8.2\bin;C:\Program Files\allure-2.14.0\bin;C:\Program Files\nodejs\;C:\Users\Amol\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testPostUser" classname="api.tests.UserTests" time="12.058">
-    <system-out><![CDATA[83365
-antone.thiel
-Iesha
-Cummings
-leann.ratke@example.com
-6qifblppv
-197-341-2000
+  <testcase name="testPostUser" classname="api.tests.UserTests" time="25.195">
+    <system-out><![CDATA[74202
+cesar.hamill
+Hunter
+Schuster
+pennie.kerluke@example.com
+mvmwmr
+(500) 802-4820
 0
 =====Starting testPostUser========
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:35 GMT
+Date: Thu, 06 Apr 2023 11:24:43 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -79,7 +79,7 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "83365"
+    "message": "74202"
 }
 =====Ending testPostUser========
 ]]></system-out>
@@ -88,10 +88,10 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetUser" classname="api.tests.UserTests" time="2.082">
+  <testcase name="testGetUser" classname="api.tests.UserTests" time="1.927">
     <system-out><![CDATA[=====Starting testGetUser========
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:38 GMT
+Date: Thu, 06 Apr 2023 11:24:45 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -101,22 +101,22 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 83365,
-    "username": "antone.thiel",
-    "firstName": "Iesha",
-    "lastName": "Cummings",
-    "email": "leann.ratke@example.com",
-    "password": "6qifblppv",
-    "phone": "197-341-2000",
+    "id": 74202,
+    "username": "cesar.hamill",
+    "firstName": "Hunter",
+    "lastName": "Schuster",
+    "email": "pennie.kerluke@example.com",
+    "password": "mvmwmr",
+    "phone": "(500) 802-4820",
     "userStatus": 0
 }
 =====Ending testGetUser========
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUser" classname="api.tests.UserTests" time="2.947">
+  <testcase name="testUpdateUser" classname="api.tests.UserTests" time="2.793">
     <system-out><![CDATA[=====Starting testUpdateUser========
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:39 GMT
+Date: Thu, 06 Apr 2023 11:24:47 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -128,11 +128,11 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "83365"
+    "message": "74202"
 }
 =====Starting testGetUser========
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:41 GMT
+Date: Thu, 06 Apr 2023 11:24:48 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -142,23 +142,23 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 83365,
-    "username": "antone.thiel",
-    "firstName": "Lizzie",
-    "lastName": "Windler",
-    "email": "jan.reilly@example.com",
-    "password": "6qifblppv",
-    "phone": "197-341-2000",
+    "id": 74202,
+    "username": "cesar.hamill",
+    "firstName": "Elizabeth",
+    "lastName": "Turcotte",
+    "email": "robbie.schaden@example.com",
+    "password": "mvmwmr",
+    "phone": "(500) 802-4820",
     "userStatus": 0
 }
 =====Ending testGetUser========
 =====Ending testUpdateUser========
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser" classname="api.tests.UserTests" time="1.718">
+  <testcase name="testDeleteUser" classname="api.tests.UserTests" time="1.49">
     <system-out><![CDATA[=====Starting testDeleteUser========
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:42 GMT
+Date: Thu, 06 Apr 2023 11:24:50 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -170,22 +170,22 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "antone.thiel"
+    "message": "cesar.hamill"
 }
 =====Ending testDeleteUser========
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser" classname="api.tests.UserTests_Logger" time="1.529">
-    <system-out><![CDATA[75588
-alphonso.lind
-Lamonica
-Blick
-delmy.schmidt@example.com
-hp0nk523
-204-102-7740
+  <testcase name="testPostUser" classname="api.tests.UserTests_Logger" time="1.678">
+    <system-out><![CDATA[26941
+chadwick.auer
+Krystyna
+Bednar
+raymundo.walsh@example.com
+1mpo1
+494-858-3214
 0
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:47 GMT
+Date: Thu, 06 Apr 2023 11:24:59 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -197,13 +197,13 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "75588"
+    "message": "26941"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUser" classname="api.tests.UserTests_Logger" time="1.804">
+  <testcase name="testGetUser" classname="api.tests.UserTests_Logger" time="2.091">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:49 GMT
+Date: Thu, 06 Apr 2023 11:25:01 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -213,20 +213,20 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 75588,
-    "username": "alphonso.lind",
-    "firstName": "Lamonica",
-    "lastName": "Blick",
-    "email": "delmy.schmidt@example.com",
-    "password": "hp0nk523",
-    "phone": "204-102-7740",
+    "id": 26941,
+    "username": "chadwick.auer",
+    "firstName": "Krystyna",
+    "lastName": "Bednar",
+    "email": "raymundo.walsh@example.com",
+    "password": "1mpo1",
+    "phone": "494-858-3214",
     "userStatus": 0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUser" classname="api.tests.UserTests_Logger" time="2.733">
+  <testcase name="testUpdateUser" classname="api.tests.UserTests_Logger" time="2.31">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:50 GMT
+Date: Thu, 06 Apr 2023 11:25:02 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -238,10 +238,10 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "75588"
+    "message": "26941"
 }
 HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:52 GMT
+Date: Thu, 06 Apr 2023 11:25:04 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -251,20 +251,20 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 75588,
-    "username": "alphonso.lind",
-    "firstName": "Melanie",
-    "lastName": "Barton",
-    "email": "hilton.mertz@example.com",
-    "password": "hp0nk523",
-    "phone": "204-102-7740",
+    "id": 26941,
+    "username": "chadwick.auer",
+    "firstName": "Carly",
+    "lastName": "Grimes",
+    "email": "aracelis.oberbrunner@example.com",
+    "password": "1mpo1",
+    "phone": "494-858-3214",
     "userStatus": 0
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser" classname="api.tests.UserTests_Logger" time="1.413">
+  <testcase name="testDeleteUser" classname="api.tests.UserTests_Logger" time="1.408">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Thu, 06 Apr 2023 10:39:53 GMT
+Date: Thu, 06 Apr 2023 11:25:05 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -276,11 +276,11 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "alphonso.lind"
+    "message": "chadwick.auer"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser[12001, username101, John, Kennedy, a@abc.com, password1, 123456](1)" classname="api.tests.Data_Driven_Tests" time="3.065">
+  <testcase name="testPostUser[12001, username101, John, Kennedy, a@abc.com, password1, 123456](1)" classname="api.tests.Data_Driven_Tests" time="1.522">
     <system-out><![CDATA[Number of Rows = 3
 Number of column = 7
 {
@@ -290,7 +290,7 @@ Number of column = 7
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser[12002, username102, Scott, Tiger, b@abc.com, password2, 234567](2)" classname="api.tests.Data_Driven_Tests" time="0.097">
+  <testcase name="testPostUser[12002, username102, Scott, Tiger, b@abc.com, password2, 234567](2)" classname="api.tests.Data_Driven_Tests" time="1.954">
     <system-out><![CDATA[{
     "code": 200,
     "type": "unknown",
@@ -298,7 +298,7 @@ Number of column = 7
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testPostUser[12003, username103, Kelvin, Richmond, c@abc.com, password3, 345678](3)" classname="api.tests.Data_Driven_Tests" time="1.248">
+  <testcase name="testPostUser[12003, username103, Kelvin, Richmond, c@abc.com, password3, 345678](3)" classname="api.tests.Data_Driven_Tests" time="1.8">
     <system-out><![CDATA[{
     "code": 200,
     "type": "unknown",
@@ -306,7 +306,7 @@ Number of column = 7
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser[username101](1)" classname="api.tests.Data_Driven_Tests" time="1.885">
+  <testcase name="testDeleteUser[username101](1)" classname="api.tests.Data_Driven_Tests" time="0.983">
     <system-out><![CDATA[Number of Rows Delete = 3
 {
     "code": 200,
@@ -315,7 +315,7 @@ Number of column = 7
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser[username102](2)" classname="api.tests.Data_Driven_Tests" time="1.447">
+  <testcase name="testDeleteUser[username102](2)" classname="api.tests.Data_Driven_Tests" time="0.576">
     <system-out><![CDATA[{
     "code": 200,
     "type": "unknown",
@@ -323,7 +323,7 @@ Number of column = 7
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser[username103](3)" classname="api.tests.Data_Driven_Tests" time="1.407">
+  <testcase name="testDeleteUser[username103](3)" classname="api.tests.Data_Driven_Tests" time="1.317">
     <system-out><![CDATA[{
     "code": 200,
     "type": "unknown",
